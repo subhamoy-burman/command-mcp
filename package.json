@@ -1,0 +1,16 @@
+{
+  "name": "mcp-shellserver",
+  "version": "1.0.0",
+  "description": "MCP Shell Server for executing terminal commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "python shellserver.py"
+  },
+  "keywords": [
+    "mcp",
+    "shell",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT"
+}

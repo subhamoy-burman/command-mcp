@@ -1,0 +1,27 @@
+# filepath: c:\Users\sburman\Projects\sb-mcp\config.toml
+[server]
+host = "localhost"
+port = 8080
+debug = true
+
+# Shell server configuration
+allowed_commands = [
+    "dir",
+    "ls",
+    "echo",
+    "pwd",
+    "whoami",
+    "python",
+    "pip",
+    "cd",
+    "type",
+    "cat",
+    "get-content"
+]
+max_output_length = 8192
+timeout = 30
+
+[security]
+# Set to true to enable authentication
+require_auth = false
+api_key = ""  # Fill this if require_auth is true

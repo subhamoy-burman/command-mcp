@@ -1,0 +1,6 @@
+# filepath: c:\Users\sburman\Projects\sb-mcp\requirements.txt
+mcp[cli]>=1.9.0
+python-dotenv==1.0.0
+toml==0.10.2
+psutil==5.9.6
+anyio>=4.0.0
